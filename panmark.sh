@@ -7,4 +7,4 @@ export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 cd "$MARKED_ORIGIN"
 
 # Marked.app provides its own environmental variables
-panzer -r markdown -w html -s -S "$MARKED_PATH"
+panzer -r markdown -w html5 -s "$MARKED_PATH"
